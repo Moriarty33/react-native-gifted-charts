@@ -123,7 +123,7 @@ const RenderStackBars = (props: Props) => {
                     height:
                       (stackItem.value * (containerHeight || 200)) /
                         (maxValue || 200) -
-                      (stackItem.marginBottom || 0),
+                      (stackItem.marginBottom || 0) + (stackItem.top || 0),
                     backgroundColor: stackItem.color || 'black',
                     borderRadius:
                       stackItem.borderRadius || props.barBorderRadius || 0,
