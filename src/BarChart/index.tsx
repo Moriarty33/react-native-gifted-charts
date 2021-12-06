@@ -613,6 +613,9 @@ export const BarChart = (props: PropTypes) => {
                         referenceLine1Config.thickness / 2,
                       transform: [{translateY: containerHeight}],
                     }}>
+                    <Text style={{ marginLeft: -28, marginBottom: -8 }}>
+                      {referenceLine1Position}
+                    </Text>
                     <Rule config={referenceLine1Config} />
                   </View>
                 ) : null}
@@ -626,6 +629,9 @@ export const BarChart = (props: PropTypes) => {
                         referenceLine2Config.thickness / 2,
                       transform: [{translateY: containerHeight}],
                     }}>
+                    <Text style={{ marginLeft: -28, marginBottom: -8 }}>
+                      {referenceLine2Position}
+                    </Text>
                     <Rule config={referenceLine2Config} />
                   </View>
                 ) : null}
@@ -639,6 +645,9 @@ export const BarChart = (props: PropTypes) => {
                         referenceLine3Config.thickness / 2,
                       transform: [{translateY: containerHeight}],
                     }}>
+                    <Text style={{ marginLeft: -28, marginBottom: -8 }}>
+                      {referenceLine3Position}
+                    </Text>
                     <Rule config={referenceLine3Config} />
                   </View>
                 ) : null}
