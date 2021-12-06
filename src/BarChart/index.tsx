@@ -613,7 +613,7 @@ export const BarChart = (props: PropTypes) => {
                         referenceLine1Config.thickness / 2,
                       transform: [{translateY: containerHeight}],
                     }}>
-                    <Text style={{ marginLeft: -28, marginBottom: -8, color: referenceLine3Config.color }}>
+                    <Text style={{ marginLeft: -28, marginBottom: -8, color: "rgba(0, 0, 0, 0.5)" }}>
                       {referenceLine1Position}
                     </Text>
                     <Rule config={referenceLine1Config} />
@@ -629,7 +629,7 @@ export const BarChart = (props: PropTypes) => {
                         referenceLine2Config.thickness / 2,
                       transform: [{translateY: containerHeight}],
                     }}>
-                    <Text style={{ marginLeft: -28, marginBottom: -8, color: referenceLine3Config.color }}>
+                    <Text style={{ marginLeft: -28, marginBottom: -8, color: "rgba(0, 0, 0, 0.5)" }}>
                       {referenceLine2Position}
                     </Text>
                     <Rule config={referenceLine2Config} />
@@ -645,7 +645,7 @@ export const BarChart = (props: PropTypes) => {
                         referenceLine3Config.thickness / 2,
                       transform: [{translateY: containerHeight}],
                     }}>
-                    <Text style={{ marginLeft: -28, marginBottom: -8, color: referenceLine3Config.color }}>
+                    <Text style={{ marginLeft: -28, marginBottom: -8, color: "rgba(0, 0, 0, 0.5)" }}>
                       {referenceLine3Position}
                     </Text>
                     <Rule config={referenceLine3Config} />
